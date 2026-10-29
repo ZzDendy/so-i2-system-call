@@ -1,0 +1,22 @@
+=== kernel ===
+Linux INFINIX-ElementaryOS 7.0.0-34-generic #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+=== tipe kernel (monolitik + modul) ===
+/boot/config-7.0.0-34-generic
+CONFIG_MODULES=y
+CONFIG_MODULE_SIG=y
+=== jumlah syscall terdaftar ===
+373
+=== modul kernel aktif ===
+Module                  Size  Used by
+unix_diag              12288  0
+tcp_diag               20480  0
+inet_diag              20480  1 tcp_diag
+xt_connmark            12288  6
+=== jumlah modul ===
+167
+=== /proc versi ===
+Linux version 7.0.0-34-generic (buildd@lcy02-amd64-117) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2
+=== sysctl penting ===
+Linux
+7.0.0-34-generic
+x86_64
